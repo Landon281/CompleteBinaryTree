@@ -11,7 +11,7 @@ public class Tester {
         for(int i = 1; i <= 100; i ++){
             double random = Math.random() * 49 + 1;
             t2.add((int)random);
-        }
+        }//end for
 
 
         System.out.println("My Tree:");
@@ -19,9 +19,6 @@ public class Tester {
         System.out.println(t2.toString());
         System.out.println(t2.size());
         System.out.println(t2.contains(100));
-        System.out.println();
-        System.out.println();
-        System.out.println();
 
     }
 
